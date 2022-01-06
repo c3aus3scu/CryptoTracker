@@ -18,7 +18,10 @@ const CoinDetailedScreen = () => {
                 name={name} 
                 symbol={symbol} 
                 marketCapRank={market_cap_rank}/>
-            <Text style={{color: 'white'}}>{name}</Text>
+            <View>
+                <Text style={{color: 'white'}}>{name}</Text>
+                <Text style={{color: 'white'}}>{name}</Text>
+            </View>
         </View>
     );
 };
