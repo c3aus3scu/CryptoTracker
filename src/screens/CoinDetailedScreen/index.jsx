@@ -12,12 +12,13 @@ const CoinDetailedScreen = () => {
     } = Coin;
 
     return (
-        <View>
+        <View style={{paddingHorizontal: 10}}>
             <CoinDetailHeader 
-            image={small} 
-            name={name} 
-            symbol={symbol} 
-            marketCapRank={market_cap_rank}/>
+                image={small} 
+                name={name} 
+                symbol={symbol} 
+                marketCapRank={market_cap_rank}/>
+            <Text style={{color: 'white'}}>{name}</Text>
         </View>
     );
 };
