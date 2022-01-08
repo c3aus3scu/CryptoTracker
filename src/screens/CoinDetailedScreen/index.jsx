@@ -56,9 +56,9 @@ const CoinDetailedScreen = () => {
     const formatCurrency = (value) => {
         "worklet";
         if (value == "") {
-            return `$${current_price.usd.toFixed(2)}`
+            return `$${current_price.usd.toFixed(6)}`
         }
-        return `$${parseFloat(value).toFixed(2)}`
+        return `$${parseFloat(value).toFixed(6)}`
     };
 
     const changeCoinValue = (value) => {
