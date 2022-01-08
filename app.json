@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "CRYPTO Price Tracker with React Native",
+    "githubUrl": "https://github.com/c3aus3scu/CryptoTracker.git"
   }
 }
